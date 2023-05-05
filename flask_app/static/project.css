@@ -1,0 +1,238 @@
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position:fixed ; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+  /* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+  /* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+  /* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.n{
+    font-size: xx-large;
+    padding: 30px 10px;
+}
+
+
+/* end of side nav */
+
+
+
+
+body{
+    background-color: #f5f5f5 ;
+}
+
+
+
+@font-face{
+    font-family: 'myfont';
+    src:url(fonts/Signerica_Medium.ttf);
+}
+
+
+.nav_bar{
+    height: 20px;
+    display: flex;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.title{
+    padding-left: 10px;
+    font-family: 'myfont';
+    font-size:xx-large;
+
+}
+
+.sidecon{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.side_nav{
+    padding-right: 25px;
+}
+
+.sn{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* end of nav bar */
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px 10px;
+    justify-content: center;
+    padding-left: 75px;
+}
+
+.pro_title{
+    padding-top: 15px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.project_one{
+    padding: 10px 10px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.project_two{
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+
+.project_Three{
+    padding: 10px 10px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.projectimg3{
+    height: 590px;
+}
+
+.intro{
+text-align: center;
+margin: 0px 560px;
+}
+
+.wording{
+    text-align: center;
+    padding:0px 300px ;
+}
+
+.word{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.sideimg{
+    max-width: 300px;
+}
+
+.sideimgone{
+    max-width: 310px;
+}
+
+
+
+.midimg{
+    max-width: 400px;
+}
+
+
+
+@media all and (max-width:500px) {
+
+    .title{
+        font-size: large;
+        padding: 20px 10px;
+
+    }
+
+    .pro_title{
+        padding-top: 50px;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+
+    .intro{
+
+    }
+
+    .wording{
+        padding: 0px  0px;
+
+    }
+
+    .word{
+        display: flex;
+        align-items: center;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    .project_one{
+        max-width: 50px;
+    }
+
+    .project_two{
+        max-width: 50px;
+    }
+
+    .project_Three{
+        max-width: 0px;
+        margin-left: -19px;
+        }
+
+
+
+
+    .sideimg{
+        max-width: 105px;
+        padding: 0px 20px;
+    }
+
+    .sideimgone{
+        max-width: 110px;
+        padding: 0px 20px;
+    }
+
+
+
+    .midimg{
+        max-width: 114px;
+        padding: 0px 20px;
+
+    }
+
+    .recipts{
+        padding: 0px 20px;
+    }
+}

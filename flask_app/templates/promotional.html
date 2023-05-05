@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='promo.css') }}" >
+    <title>Promotionals</title>
+</head>
+<body>
+    <div class="a">
+        <div class="nav_bar">
+            <h1 class="title">Dillan Samano</h1>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="/Dillan_samano/About_me">About Me</a>
+                <a href="/Dillan_samano/Projects">Projects</a> 
+                <a href="/Dillan_samano/Contact">Contact</a>
+            </div>
+        <span onclick="openNav()" class="n">&#9776;</span>
+        </div>
+        <br>
+        <br>
+        <br>
+        <!-- <hr style="border-color: black;"> -->
+        <!-- bottom of nav bar -->
+        <div>
+            <h1><a href="/Dillan_samano/Projects" style="text-decoration: none; color: #000;padding-left: 20px;"> < Back</a></h1>
+        </div>
+    <div class="container">
+            <div class="promo">
+                    <a href=""><img src="../static/images/Iphone_two.png" alt="f" class="onesideimg"></a>
+                    <div class="">
+                        <h1> The Coffee House</h1>
+            <h1><a href=""  class="email">View Email</a></h1>
+            <p><a href="" style="color: black;">Source code</a></p>
+        </div>
+        </div>
+        <div class="promo">
+            <a href=""><img src="../static/images/travel.png" alt="f" class="midimg"></a>
+            <div class="side" >
+                <h1>Travel Agency</h1>
+                <h1><a href="" class="email">View Email</a></h1>
+                <p><a href="" style="color: black;">Source code</a></p>
+            </div>
+        </div>
+        <div class="promo">
+            <a href=""><img src="../static/images/sunny.png" alt="f" class="sideimg"></a>
+            <div class="side">
+                <h1>Coffee House</h1>
+                <h1><a href=""  class="email">View Email</a></h1>
+                <p><a href=""style="color: black;">Source code</a></p>
+            </div>
+        </div>
+    </div></div>
+    <script type="text/javascript" src="{{url_for('static',filename='index.js')}}"></script>
+</body>
+</html>

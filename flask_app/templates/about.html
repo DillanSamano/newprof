@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css"> -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='about.css') }}" >
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <body>
+            <div class="container">
+                <div class="nav_bar">
+                    <h1 class="title">Dillan Samano</h1>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="/Dillan_samano/Projects">Projects</a>
+                        <a href="/Dillan_samano/Contact">Contact</a>
+                    </div>
+                <span onclick="openNav()" class="n">&#9776;</span>
+                </div>
+                <br>
+                <br>
+                <br>
+        <!-- <hr style="border-color: black;">/ -->
+        <!-- bottom of nav bar -->
+            <div class="bottom">
+                            <div class="im">
+                        <img src="../static/images/indeded.png" alt="" class="me">
+
+                    </div>
+                        <div class="txt">
+                                <h1 class="who">WHO AM I??</h1>
+                    <p class="p">
+                        Hi, I'm Dillan Samano, an American Latino Email developer who creates exceptional and responsive email designs. I enrolled in a Coding Dojo boot-camp in 2022, where I honed my skills in HTML, CSS, and JavaScript, and gained an understanding of user experience, design principles, and marketing strategy. With a deep understanding of user experience, design principles, and marketing strategy, I create engaging Email designs that convert. I am a natural problem-solver and team player, always eager to learn new technologies and techniques. Let me bring my expertise and enthusiasm to help you achieve your goals
+                <div class="inner">
+                <h1 class="sub">Connect with me!</h1>
+                <a href="https://www.linkedin.com/in/dillan-samano/" "><img src="../static/images/linkedin.png" alt="" class="connect"></a></div>
+            </div>
+                
+            </div>
+
+</div>
+<script type="text/javascript" src="{{url_for('static',filename='index.js')}}"></script>
+
+</body>
+</html>
